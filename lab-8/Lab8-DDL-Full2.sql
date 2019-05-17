@@ -9,5 +9,3 @@ CREATE TABLE Registration(
     parent_name VARCHAR(100),
     FOREIGN KEY (parent_no) REFERENCES Parents(parent_no));
 
-
-#miss FOREIGN KEY (children_no) REFERENCES Children(children_no));
